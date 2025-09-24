@@ -3,7 +3,11 @@
  * Handles all product-related API calls and data management
  * In a real application, these would connect to your backend API
  */
-
+import Chlocalciferol from '../Assets/Chlocalciferol.avif';
+import moisturisingCream from '../Assets/facial-moisturising-lotion-spf30-LG.jpg';
+import fishOil from '../Assets/38.avif';
+import ibuprofen from '../Assets/ibuprofen.jpg';
+import BabyShampoo from '../Assets/babyShampoo.jpg';
 // Mock product data - replace with actual API calls
 const mockProducts = [
   {
@@ -32,10 +36,10 @@ const mockProducts = [
     name: 'Vitamin D3 2000 IU',
     category: 'vitamins',
     manufacturer: 'Nature Made',
-    price: 18.99,
+    price: 1000,
     rating: 4.7,
     reviewCount: 89,
-    image: 'https://images.unsplash.com/photo-1550572017-edd951aa8ca0?w=400&h=400&fit=crop',
+    image: Chlocalciferol,
     description: 'High-potency Vitamin D3 supplement to support bone health and immune function. 90 softgels per bottle.',
     ingredients: ['Vitamin D3 (Cholecalciferol) 2000 IU', 'Soybean oil', 'Gelatin', 'Glycerin'],
     warnings: [
@@ -52,11 +56,11 @@ const mockProducts = [
     category: 'skincare',
     manufacturer: 'CeraVe',
     price: 24.99,
-    originalPrice: 29.99,
+    originalPrice: 246,
     discount: 17,
     rating: 4.3,
     reviewCount: 156,
-    image: 'https://images.unsplash.com/photo-1556229162-6b2e6c4e8b71?w=400&h=400&fit=crop',
+    image: moisturisingCream,
     description: 'Daily moisturizing cream with broad-spectrum SPF 30 protection. Developed with dermatologists.',
     ingredients: ['Zinc oxide', 'Octinoxate', 'Ceramides', 'Hyaluronic acid', 'Niacinamide'],
     warnings: [
@@ -69,13 +73,13 @@ const mockProducts = [
   },
   {
     id: '4',
-    name: 'Ibuprofen 200mg',
+    name: 'Omega-3 Fish Oil',
     category: 'otc',
     manufacturer: 'Advil',
-    price: 9.99,
+    price: 458,
     rating: 4.4,
     reviewCount: 203,
-    image: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&h=400&fit=crop',
+    image: fishOil,
     description: 'Fast-acting ibuprofen for pain relief and inflammation reduction. 100 tablets per bottle.',
     ingredients: ['Ibuprofen 200mg', 'Corn starch', 'Croscarmellose sodium', 'Titanium dioxide'],
     warnings: [
@@ -88,13 +92,13 @@ const mockProducts = [
   },
   {
     id: '5',
-    name: 'Omega-3 Fish Oil',
+    name: 'Ibuprofen 400mg',
     category: 'vitamins',
     manufacturer: 'Nordic Naturals',
-    price: 32.99,
+    price: 46,
     rating: 4.6,
     reviewCount: 94,
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop',
+    image: ibuprofen,
     description: 'Premium omega-3 fish oil supplement with EPA and DHA for heart and brain health.',
     ingredients: ['Fish oil concentrate', 'EPA 650mg', 'DHA 450mg', 'Vitamin E'],
     warnings: [
@@ -110,10 +114,10 @@ const mockProducts = [
     name: 'Baby Gentle Shampoo',
     category: 'baby-care',
     manufacturer: "Johnson's Baby",
-    price: 7.99,
+    price: 182,
     rating: 4.8,
     reviewCount: 312,
-    image: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&h=400&fit=crop',
+    image: BabyShampoo,
     description: 'Gentle, tear-free baby shampoo that cleanses delicate hair and scalp. Hypoallergenic formula.',
     ingredients: ['Water', 'Cocamidopropyl betaine', 'PEG-80 sorbitan laurate', 'Sodium trideceth sulfate'],
     warnings: [

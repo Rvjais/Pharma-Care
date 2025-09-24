@@ -5,7 +5,7 @@ import SafeIcon from '../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 import FeaturedProducts from '../components/products/FeaturedProducts';
 import ReviewsPreview from '../components/reviews/ReviewsPreview';
-
+import '../pages/HomePage.css';
 const { FiShield, FiClock, FiTruck, FiHeart, FiArrowRight } = FiIcons;
 
 /**

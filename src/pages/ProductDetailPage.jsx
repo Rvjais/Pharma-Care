@@ -189,7 +189,7 @@ const ProductDetailPage = () => {
                   fontWeight: '700',
                   color: 'var(--primary-600)'
                 }}>
-                  ${product.price}
+                 ₹{product.price}
                 </span>
                 {product.originalPrice && (
                   <span style={{
@@ -197,7 +197,7 @@ const ProductDetailPage = () => {
                     color: 'var(--gray-500)',
                     textDecoration: 'line-through'
                   }}>
-                    ${product.originalPrice}
+                   ₹{product.originalPrice}
                   </span>
                 )}
               </div>

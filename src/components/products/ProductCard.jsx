@@ -89,11 +89,11 @@ const ProductCard = ({ product }) => {
         <div className="product-price-section">
           <div className="price-container">
             <span className="current-price">
-              ${product.price}
+             ₹{product.price}
             </span>
             {product.originalPrice && (
               <span className="original-price">
-                ${product.originalPrice}
+               ₹{product.originalPrice}
               </span>
             )}
           </div>

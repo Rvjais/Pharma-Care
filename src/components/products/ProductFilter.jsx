@@ -25,10 +25,10 @@ const ProductFilter = ({ filters, onFilterChange, totalProducts }) => {
   // Available price ranges
   const priceRanges = [
     { value: 'all', label: 'All Prices' },
-    { value: '0-25', label: 'Under $25' },
-    { value: '25-50', label: '$25 - $50' },
-    { value: '50-100', label: '$50 - $100' },
-    { value: '100', label: 'Over $100' }
+    { value: '0-25', label: 'Under₹25' },
+    { value: '25-50', label: '$25 -₹50' },
+    { value: '50-100', label: '$50 -₹100' },
+    { value: '100', label: 'Over₹100' }
   ];
 
   return (
