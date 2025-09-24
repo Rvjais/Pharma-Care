@@ -1,0 +1,110 @@
+/* ProductFilter Component Styles */
+.filter-sidebar {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  position: sticky;
+  top: 6rem;
+}
+
+.filter-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.search-input-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gray-400);
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-500);
+  border-color: transparent;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-500);
+  border-color: transparent;
+}
+
+.filter-results {
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.results-text {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.results-count {
+  font-weight: 600;
+}
+
+.clear-filters-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: var(--primary-600);
+  border: 1px solid var(--primary-600);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.clear-filters-btn:hover {
+  background-color: var(--primary-50);
+}

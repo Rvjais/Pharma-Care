@@ -1,0 +1,140 @@
+/* ReviewStats Component Styles */
+.review-stats-container {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.overall-rating-section {
+  text-align: center;
+}
+
+.overall-rating-number {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.overall-rating-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.overall-rating-text {
+  color: var(--gray-600);
+}
+
+.rating-distribution-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.distribution-title {
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: 1rem;
+}
+
+.distribution-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.distribution-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  width: 2rem;
+}
+
+.distribution-bar-container {
+  flex: 1;
+  background-color: var(--gray-200);
+  border-radius: 9999px;
+  height: 0.5rem;
+}
+
+.distribution-bar {
+  background-color: var(--primary-500);
+  height: 0.5rem;
+  border-radius: 9999px;
+  transition: all 0.5s ease;
+}
+
+.distribution-count {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  width: 3rem;
+  text-align: right;
+}
+
+.additional-stats-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.positive-stat-card {
+  background-color: #dcfce7;
+}
+
+.recent-stat-card {
+  background-color: var(--blue-50);
+}
+
+.stat-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.positive-stat-number {
+  font-weight: 600;
+  color: var(--green-800);
+}
+
+.recent-stat-number {
+  font-weight: 600;
+  color: var(--blue-800);
+}
+
+.positive-stat-label {
+  font-size: 0.875rem;
+  color: var(--green-700);
+}
+
+.recent-stat-label {
+  font-size: 0.875rem;
+  color: var(--blue-700);
+}
+
+/* Star Rating */
+.star-filled {
+  color: var(--yellow-400);
+  fill: currentColor;
+}
+
+.star-empty {
+  color: var(--gray-300);
+}
