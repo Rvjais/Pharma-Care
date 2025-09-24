@@ -8,6 +8,7 @@ import moisturisingCream from '../Assets/facial-moisturising-lotion-spf30-LG.jpg
 import fishOil from '../Assets/38.avif';
 import ibuprofen from '../Assets/ibuprofen.jpg';
 import BabyShampoo from '../Assets/babyShampoo.jpg';
+import pcm from '../Assets/pcm.jpeg';
 // Mock product data - replace with actual API calls
 const mockProducts = [
   {
@@ -20,7 +21,7 @@ const mockProducts = [
     discount: 19,
     rating: 4.5,
     reviewCount: 127,
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop',
+    image: pcm,
     description: 'Extra strength acetaminophen for effective pain relief and fever reduction. Each caplet contains 500mg of acetaminophen.',
     ingredients: ['Acetaminophen 500mg', 'Microcrystalline cellulose', 'Starch', 'Stearic acid'],
     warnings: [
